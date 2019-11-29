@@ -1,0 +1,254 @@
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        height: 2600px;
+                    }
+                    
+                    .container {
+                        width: 1150px;
+                        margin: auto;
+                    }
+                    
+                    .header {
+                        width: 100%;
+                        height: 350px;
+                        background-color: blueviolet;
+                    }
+                    
+                    .header .heading {
+                        width: 50%;
+                        float: left;
+                        margin-top: 100px;
+                        border-right: 1px solid #ddd;
+                    }
+                    
+                    .header .heading h2 {
+                        width: 49%;
+                        color: #fff;
+                        font-size: 30px;
+                    }
+                    
+                    .header .heading h2 span:hover {
+                        color: greenyellow;
+                        cursor: pointer;
+                    }
+                    
+                    .header .lorem {
+                        width: 45%;
+                        float: left;
+                        margin-top: 120px;
+                        margin-left: 5px;
+                    }
+                    
+                    .header .lorem p {
+                        font-family: Tahoma, sans-serif;
+                        line-height: 1.8;
+                        color: #ddd;
+                    }
+                    
+                    .header .lorem p:hover {
+                        color: dimgray;
+                    }
+                    
+                    .header .lorem button {
+                        border: 0;
+                        background: none;
+                        width: 200px;
+                        height: 50px;
+                        color: #fff;
+                        border-radius: 30px;
+                        background-color: aqua;
+                        font-size: larger;
+                        text-transform: uppercase;
+                        outline: 0;
+                    }
+                    
+                    .medium {
+                        width: 100%;
+                        height: 400px;
+                        border-bottom: 2px solid #ddd;
+                    }
+                    
+                    .medium .heading1 {
+                        width: 50%;
+                        margin-top: 30px;
+                        border-right: 1px solid darkgray;
+                        float: left;
+                    }
+                    
+                    .medium .heading1 h2 {
+                        font-size: larger;
+                        font-weight: bold;
+                    }
+                    
+                    .medium .heading1 p {
+                        line-height: 1.9;
+                        font-family: Tahoma, sans-serif;
+                        font-size: 20px;
+                    }
+                    
+                    .medium .heading1 button {
+                        border: 0;
+                        background: none;
+                        width: 200px;
+                        height: 50px;
+                        color: blanchedalmond;
+                        border-radius: 30px;
+                        background-color: cornflowerblue;
+                        text-transform: uppercase;
+                        padding: 10px;
+                        outline: 0;
+                    }
+                    
+                    .medium .heading2 {
+                        width: 45%;
+                        margin-top: 30px;
+                        float: left;
+                        margin-left: 11px;
+                        visibility: hidden;
+                    }
+                    
+                    .medium .heading2 p {
+                        line-height: 2;
+                        font-weight: bold;
+                    }
+                    
+                    .medium .heading2 i {
+                        padding-right: 5px;
+                        color: aqua;
+                    }
+                    
+                    .third {
+                        width: 100%;
+                        height: 1000px;
+                        background-color: rgb(243, 242, 242);
+                        padding-top: 100px;
+                    }
+                    
+                    .third .cont {
+                        height: 350px;
+                    }
+                    
+                    .third .cont img {
+                        height: 250px;
+                        width: 30%;
+                        float: left;
+                    }
+                    
+                    .third .cont h2 {
+                        width: 65%;
+                        margin-left: 20px;
+                        float: left;
+                        text-decoration: underline;
+                    }
+                    
+                    .third .cont p {
+                        width: 65%;
+                        float: left;
+                        margin-left: 30px;
+                        font-weight: bold;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        color: #777;
+                        line-height: 1.8;
+                    }
+                    
+                    .third .cont button {
+                        margin-left: 50px;
+                        margin-top: 10px;
+                        border: none;
+                        color: #fff;
+                        border-radius: 30px;
+                        width: 150px;
+                        height: 50px;
+                        background: 0;
+                        outline: none;
+                        background-color: #777;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                    }
+                    
+                    .third .cont button:hover {
+                        background-color: #888;
+                    }
+                    
+                    .about {
+                        width: 100%;
+                        height: 550px;
+                        padding-top: 40px;
+                    }
+                    
+                    .about .right {
+                        width: 50%;
+                        height: 600px;
+                        border-right: 2px solid #ddd;
+                        float: left;
+                    }
+                    
+                    .about .right h2 {
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 4opx;
+                        font-weight: bold;
+                    }
+                    
+                    .about .left {
+                        width: 45%;
+                        height: 600px;
+                        float: left;
+                        margin-left: 15px;
+                    }
+                    
+                    .about .right input {
+                        width: 90%;
+                        height: 50px;
+                        margin-top: 20px;
+                        outline: 0;
+                        padding-left: 15px;
+                    }
+                    
+                    .about .right textarea {
+                        width: 90%;
+                        margin-top: 20px;
+                        outline: 0;
+                        height: 90px;
+                        padding-left: 15px;
+                    }
+                    
+                    .about .right button {
+                        width: 180px;
+                        margin-top: 20px;
+                        height: 70px;
+                        border: 1px solid;
+                        margin-left: 100px;
+                        text-transform: uppercase;
+                        padding: 25px;
+                        background-color: #fff;
+                        outline: 0;
+                    }
+                    
+                    .about .left p {
+                        width: 80%;
+                        line-height: 1.5;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 30px;
+                    }
+                    
+                    .about .left p i {
+                        color: #00BC8A;
+                        margin-right: 8px;
+                    }
+                    
+                    .footer {
+                        width: 100%;
+                        height: 200px;
+                        background-color: #ddd;
+                    }
+                    
+                    .footer p {
+                        padding-left: 400px;
+                        padding-top: 90px;
+                        text-transform: uppercase;
+                        color: #777;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+                    
+                    @media(max-width: 500px) {}
